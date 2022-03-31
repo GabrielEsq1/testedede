@@ -1,5 +1,5 @@
 
-@media (max-width: 1125px) {
+@media (width: 360px) {
 
   #monedacompra {
     position: absolute;
@@ -45,8 +45,8 @@
   #bienvenido {
     position: absolute;
     top: -23px;
-    left: 8px;
-    font-size: 12px;
+    left: 180px;
+    font-size: 70px;
     text-align: center;
     color: #7A869A;
      
@@ -307,15 +307,14 @@
   }
 
   #logo1 {
-    position: absolute;
-  top: 5px;
-  left: 20px;
-    height: 120px;
+   
+    position: relative;
+  top: 25px;
+  left: 25px;
+    height: 500px;
     /*IMPORTANTE*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
+    
+    z-index: 20;
 
   }
   
@@ -442,8 +441,8 @@
    
 
     position: absolute;
-    top: 29px;
-    left: 29px;
+    top: 10px;
+    left: 145px;
     font-size: 25px;
     text-align: center;
     text-justify: auto;
@@ -454,7 +453,7 @@
   
   #texto2 {
     position: absolute;
-      top: 70px;
+      top: 45px;
       font-size: 12px;
       text-align: center;
       text-justify: auto;
@@ -497,8 +496,8 @@
    
   #fname {
     position: absolute;
-    top: 189px;
-  left: 55px;
+    top: 178px;
+    left: 85px;
   
     text-align: left;
   letter-spacing: 0px;
@@ -524,8 +523,8 @@
     
     #lname {
       position: absolute;
-      top: 230px;
-    left: 55px;
+      top: 220px;
+    left: 85px;
     
       text-align: left;
     letter-spacing: 0px;
@@ -597,6 +596,10 @@
   
   
     #clic {
+     
+      
+       max-width: 205px;
+       max-height: 52px; 
   
   /* UI Properties */
   color: var(--unnamed-color-ffffff);
@@ -606,8 +609,8 @@
   color: #FFFFFF;
   opacity: 1;
   position: absolute;
-  top: 280px;
-  left: 45px;
+  top: 260px;
+  left: 72px;
   width: 205px;
   height: 52px; 
   /* UI Properties */
@@ -620,7 +623,7 @@
   
     #iniciafacebook {
       position: absolute;
-      top: 5px;
+      top: 14px;
       left: 50px;
   /* UI Properties */
   text-align: center;
@@ -632,17 +635,17 @@
   
     #iconogoogle {
       position: absolute;
-      top: 15px;
-      left: 15px;
+      top: 16px;
+      left: 35px;
   
     }
   
     #facebook {
       position: absolute;
-  top: 558px;
+  top: 611px;
   
-  left: 35px;
-  width: 220px;
+  left: 55px;
+  width: 260px;
   height: 52px;
   /* UI Properties */
   border: 1px solid #000000;
@@ -665,7 +668,7 @@
   
       position: absolute;
       top: 13px;
-      left: 39px;
+      left: 59px;
       /* UI Properties */
       text-align: center;
       font: normal normal medium 4px/12px Montserrat;
@@ -675,10 +678,11 @@
     }
     #google {
       position: absolute;
-  top: 500px;
-  left: 35px;
-  width: 220px;
-  height: 52px;
+      top: 550px;
+      
+      left: 55px;
+      width: 260px;
+      height: 52px;
   /* UI Properties */
   border: 1px solid #000000;
   border-radius: 50px;
@@ -765,9 +769,7 @@
     }
   } 
   
-  
-    
-  @media (max-width: 1080px) {
+  @media (max-width: 411px) {
 
     #monedacompra {
       position: absolute;
@@ -813,8 +815,8 @@
     #bienvenido {
       position: absolute;
       top: -23px;
-      left: 8px;
-      font-size: 12px;
+      left: 180px;
+      font-size: 70px;
       text-align: center;
       color: #7A869A;
        
@@ -1063,28 +1065,26 @@
     
     #bloqueNegro {
     
-     position: relative;
+     position: absolute;
     top: 50px;
-    left: 35px;
+    left: -20px;
      height: 130px;
      /*IMPORTANTE*/
      
-     justify-content: center;
-     align-items: center;
+    
      z-index: 2;
     
     }
   
     #logo1 {
-      position: absolute;
-      top: -35px;
-      left: 35px;
-      height: 150px;
+     
+      position: relative;
+    top: 25px;
+    left: 45px;
+      height: 200px;
       /*IMPORTANTE*/
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 2;
+      
+      z-index: 20;
   
     }
     
@@ -1212,7 +1212,7 @@
   
       position: absolute;
       top: 10px;
-      left: 90px;
+      left: 65px;
       font-size: 25px;
       text-align: center;
       text-justify: auto;
@@ -1223,7 +1223,7 @@
     
     #texto2 {
       position: absolute;
-        top: 50px;
+        top: 45px;
         font-size: 12px;
         text-align: center;
         text-justify: auto;
@@ -1266,8 +1266,8 @@
      
     #fname {
       position: absolute;
-      top: 189px;
-    left: 95px;
+      top: 178px;
+      left: 120px;
     
       text-align: left;
     letter-spacing: 0px;
@@ -1293,8 +1293,8 @@
       
       #lname {
         position: absolute;
-        top: 230px;
-      left: 95px;
+        top: 220px;
+        left: 120px;
       
         text-align: left;
       letter-spacing: 0px;
@@ -1366,6 +1366,10 @@
     
     
       #clic {
+       
+        
+         max-width: 205px;
+         max-height: 52px; 
     
     /* UI Properties */
     color: var(--unnamed-color-ffffff);
@@ -1375,8 +1379,8 @@
     color: #FFFFFF;
     opacity: 1;
     position: absolute;
-    top: 295px;
-    left: 228px;
+    top: 260px;
+    left: 110px;
     width: 205px;
     height: 52px; 
     /* UI Properties */
@@ -1389,8 +1393,8 @@
     
       #iniciafacebook {
         position: absolute;
-        top: 10px;
-        left: 80px;
+        top: 14px;
+        left: 50px;
     /* UI Properties */
     text-align: center;
     font: normal normal medium 3px/12px Montserrat;
@@ -1401,17 +1405,17 @@
     
       #iconogoogle {
         position: absolute;
-        top: 14px;
-        left: 50px;
+        top: 16px;
+        left: 35px;
     
       }
     
       #facebook {
         position: absolute;
-    top: 558px;
+    top: 640px;
     
-    left: 35px;
-    width: 290px;
+    left: 80px;
+    width: 260px;
     height: 52px;
     /* UI Properties */
     border: 1px solid #000000;
@@ -1422,8 +1426,8 @@
     
       #iconofacebook {
         position: absolute;
-        top: 14px;
-        left: 45px;
+        top: 18px;
+        left: 25px;
       }
   
   
@@ -1434,7 +1438,7 @@
     
         position: absolute;
         top: 13px;
-        left: 90px;
+        left: 59px;
         /* UI Properties */
         text-align: center;
         font: normal normal medium 4px/12px Montserrat;
@@ -1444,10 +1448,11 @@
       }
       #google {
         position: absolute;
-    top: 500px;
-    left: 35px;
-    width: 290px;
-    height: 52px;
+        top: 570px;
+        
+        left: 80px;
+        width: 260px;
+        height: 52px;
     /* UI Properties */
     border: 1px solid #000000;
     border-radius: 50px;
@@ -1532,10 +1537,10 @@
     opacity: 1;
     z-index: 0;
       }
-    }  
-  
-
-  @media (max-width: 750px) {
+    } 
+    
+     
+  @media (max-width: 320px) {
 
     #monedacompra {
       position: absolute;
@@ -1581,8 +1586,8 @@
     #bienvenido {
       position: absolute;
       top: -23px;
-      left: 8px;
-      font-size: 12px;
+      left: 180px;
+      font-size: 70px;
       text-align: center;
       color: #7A869A;
        
@@ -1831,28 +1836,26 @@
     
     #bloqueNegro {
     
-     position: relative;
+     position: absolute;
     top: 50px;
-    left: 35px;
+    left: -20px;
      height: 130px;
      /*IMPORTANTE*/
      
-     justify-content: center;
-     align-items: center;
+    
      z-index: 2;
     
     }
   
     #logo1 {
+     
       position: relative;
-    top: -34px;
-    left: 5px;
+    top: 25px;
+    left: 45px;
       height: 150px;
       /*IMPORTANTE*/
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 2;
+      
+      z-index: 20;
   
     }
     
@@ -1979,8 +1982,8 @@
      
   
       position: absolute;
-      top: 29px;
-      left: 29px;
+      top: 10px;
+      left: 35px;
       font-size: 25px;
       text-align: center;
       text-justify: auto;
@@ -1991,7 +1994,7 @@
     
     #texto2 {
       position: absolute;
-        top: 70px;
+        top: 45px;
         font-size: 12px;
         text-align: center;
         text-justify: auto;
@@ -2034,8 +2037,8 @@
      
     #fname {
       position: absolute;
-      top: 189px;
-    left: 55px;
+      top: 158px;
+      left: 70px;
     
       text-align: left;
     letter-spacing: 0px;
@@ -2061,8 +2064,8 @@
       
       #lname {
         position: absolute;
-        top: 230px;
-      left: 55px;
+        top: 200px;
+        left: 70px;
       
         text-align: left;
       letter-spacing: 0px;
@@ -2134,6 +2137,10 @@
     
     
       #clic {
+       
+        
+         max-width: 205px;
+         max-height: 52px; 
     
     /* UI Properties */
     color: var(--unnamed-color-ffffff);
@@ -2143,8 +2150,8 @@
     color: #FFFFFF;
     opacity: 1;
     position: absolute;
-    top: 280px;
-    left: 45px;
+    top: 260px;
+    left: 57px;
     width: 205px;
     height: 52px; 
     /* UI Properties */
@@ -2157,7 +2164,7 @@
     
       #iniciafacebook {
         position: absolute;
-        top: 5px;
+        top: 14px;
         left: 50px;
     /* UI Properties */
     text-align: center;
@@ -2169,17 +2176,17 @@
     
       #iconogoogle {
         position: absolute;
-        top: 15px;
-        left: 15px;
+        top: 16px;
+        left: 35px;
     
       }
     
       #facebook {
         position: absolute;
-    top: 558px;
-    
-    left: 45px;
-    width: 220px;
+        top: 590px;
+        
+        left: 29px;
+    width: 260px;
     height: 52px;
     /* UI Properties */
     border: 1px solid #000000;
@@ -2202,7 +2209,7 @@
     
         position: absolute;
         top: 13px;
-        left: 39px;
+        left: 59px;
         /* UI Properties */
         text-align: center;
         font: normal normal medium 4px/12px Montserrat;
@@ -2212,10 +2219,11 @@
       }
       #google {
         position: absolute;
-    top: 500px;
-    left: 45px;
-    width: 220px;
-    height: 52px;
+        top: 520px;
+        
+        left: 29px;
+        width: 260px;
+        height: 52px;
     /* UI Properties */
     border: 1px solid #000000;
     border-radius: 50px;
@@ -2300,4 +2308,788 @@
     opacity: 1;
     z-index: 0;
       }
-    }  
+    } 
+    
+     
+  @media (max-width: 375px) {
+
+    #monedacompra {
+      position: absolute;
+    top: 570px;
+    left: 229px;
+      
+      max-width: 100%;
+      display: block;
+      align-items: center;
+      z-index: 20;
+        color: black;
+      position: -webkit-sticky; /* Safari */
+    
+    
+    }
+    
+    #slider {
+      position: absolute;
+      top: 108px;
+      left: 255px;
+        
+        max-width: 100%;
+        display: block;
+        align-items: center;
+        z-index: 7;
+        color: white;
+    
+    }
+    #cuadroslider {
+      position: absolute;
+      top: 99px;
+      left: 244px;
+        
+        max-width: 100%;
+        display: block;
+        align-items: center;
+        z-index: 6;
+        color: #3599F3;
+    
+    }
+    
+    
+    #bienvenido {
+      position: absolute;
+      top: -23px;
+      left: 180px;
+      font-size: 70px;
+      text-align: center;
+      color: #7A869A;
+       
+      margin:20%;
+      z-index: 3;
+    
+    }
+    
+    #elemntosetiquetas {
+      display: inline;
+      margin: 10px;
+      color: grey
+    
+    
+    }
+    
+    #fotoproducto {
+    
+      position: absolute;
+      top: 30px;
+      left: 17px;
+      max-width: 200px;
+      z-index: 2;
+    
+    }
+    
+    #qr-reader {
+      position: absolute;
+      top: 360px;
+      left: 50px;
+    
+    width:200px;
+    width:200px;
+    }
+    
+    
+    #mascompradostitulo {
+      position: absolute;
+      top: 190px;
+      left: 10px;
+      font-size: 17px;
+      font-style: bold;
+     
+      color: black;
+       
+      
+      z-index: 10;
+    }
+    
+    
+    #menuetiquetas {
+      list-style-type: none;
+      display: inline-block;
+      
+      z-index: 3;
+      position: absolute;
+      top: 150px;
+      left: 8px;
+      font-size: 12px;
+     
+      color: #7A869A;
+    }
+    
+    #ctabuscar {
+      position: absolute;
+      top: 60px;
+      left: 67px;
+      font-size: 15px;
+     
+      color: black;
+       
+      
+      z-index: 10;
+    
+    }
+    
+    
+    
+    /* Create a responsive, centered, three-column grid. */
+    .card-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat;
+      position: absolute;
+      
+      top: 240px;
+      left: 45px;
+      z-index: 12;
+      align-items: center;
+      display: grid;
+      grid-gap: 16px;
+      grid-template-columns: repeat(auto-fit);
+      justify-content: center;
+    }
+    
+    
+    #wiskey {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+      max-width: 100px;
+      max-height: 100px;
+    }
+    
+    .menudenavegacion {
+      position : sticky;
+      top : 25px;
+      z-index: 20;
+    }
+    
+    .card {
+    
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 200px;
+      max-height: 200px;
+      z-index: 12;
+      border-radius: 5px;
+      color: black;
+      
+      text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #Buscador {
+      position: absolute;
+      top: 95px;
+      left: 15px;
+      display: block;
+      border-radius: 10px;
+      background: #ebebeb url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+      background-size: 30px;
+      width: 200px;
+      
+      border: transparent;
+      border-bottom: solid 1px #ccc;
+      padding: 10px 10px 10px 30px;
+      outline: none;
+      z-index: 10;
+    }
+    
+    #campana {
+      position: absolute;
+      top: 20px;
+      left: 247px;
+        
+        max-width: 100%;
+        display: block;
+        align-items: center;
+        z-index: 7;
+        color: black;
+      
+    }
+    
+    #circulomenu {
+      position: absolute;
+      top: 530px;
+      left: 125px;
+        
+        max-width: 100%;
+        display: block;
+        align-items: center;
+        z-index: 19;
+        color: #3599F3;
+    
+    }
+    
+    
+    
+    #escanearqr {
+      position: absolute;
+      top: 542px;
+      left: 138px;
+        
+        max-width: 100%;
+        display: block;
+        align-items: center;
+        z-index: 20;
+        color: #ffffff;
+        position: -webkit-sticky; /* Safari */
+    
+    }
+    
+    .avatar {
+      position: absolute;
+      top: 40px;
+      left: 20px;
+      max-width: 100%;
+      z-index: 21;
+    }
+    
+    #vertodo {
+      position: absolute;
+      top: 190px;
+      left: 240px;
+      font-size: 10px;
+      font-style: bold;
+     
+      color: grey;
+       
+      
+      z-index: 10;
+    }
+    
+    #casitainicio {
+      position: absolute;
+      top: 570px;
+      left: 50px;
+        
+        max-width: 100%;
+        display: block;
+        align-items: center;
+        z-index: 20;
+        color: black;
+        position: -webkit-sticky; /* Safari */
+    
+    }
+    
+    
+    
+    
+    #menufondo {
+      position: absolute;
+    top: 530px;
+    left: 0px;
+    max-width: 299px;
+    max-height: 200px;
+    
+      display: block;
+      align-items: center;
+      z-index: 19;
+    
+    
+    }
+    
+    #bloqueNegro {
+    
+     position: absolute;
+    top: 50px;
+    left: -20px;
+     height: 130px;
+     /*IMPORTANTE*/
+     
+    
+     z-index: 2;
+    
+    }
+  
+    # {
+     
+      position: relative;
+    top: 25px;
+    left: 20px;
+      height: 150px;
+      /*IMPORTANTE*/
+      
+      z-index: 20;
+  
+    }
+    
+    #logo34 {
+      position: absolute;
+    top: 120px;
+    left: 60px;
+      scale: 100%;
+      max-width: 70%;
+      display: block;
+      align-items: center;
+      z-index: 2;
+    
+    }
+    
+    #logo2 {
+      position: absolute;
+    top: 30px;
+    left: 00px;
+    opacity: 0.3;
+      scale: 100%;
+      max-width: 100%;
+      display: block;
+      align-items: center;
+      z-index: 1;
+    
+    }
+    
+    #bloqueBlanco {
+     
+      
+     /*IMPORTANTE*/
+     justify-content: center;
+     align-items: center;
+     background-image: url("/images/");
+    
+     z-index: 0;
+     position: relative;
+        display: block;
+        
+        z-index: 2;
+    
+    
+    }
+    
+    #textocrearcuenta {
+    
+      position: absolute;
+      top: 2%;
+      left: 30%;
+      font-size: 18px;
+      text-align: center;
+      color: #3599F3;
+       
+      margin:20%;
+      z-index: 3;
+    }
+    
+    #atrás {
+     position: absolute;
+      top: 2%;
+      left: -10%;
+      font-size: 18px;
+      text-align: center;
+      color: #3599F3;
+       
+      margin:20%;
+      z-index: 4;
+    
+    }
+    
+    #textocrearusuario {
+      position: absolute;
+      top: 79%;
+      left: 10%;
+      font-size: 12px;
+      text-align: center;
+      display: inline;
+      text-overflow: hidden;
+      
+      margin:20%;
+      z-index: 3;
+    
+    }
+    
+    #iniciodesesionlink {
+    
+      color: blue
+    }
+    
+    
+    #bloqueabajo {
+      /* Layout Properties */
+      position: absolute;
+      top: 0%;
+      left:0%;
+    width: 295.6px;
+    height: 648px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 0;
+    }
+    
+    #imagen21 {
+      z-index: -1;
+      max-height: 320px;
+      position: relative;
+      top: 35px;
+      left: 1px;
+    
+    }
+    
+    #cuadroredondeado {
+      
+      /*IMPORTANTE*/
+      justify-content: center;
+      align-items: center;
+      
+      display: block;
+    }
+    #texto1 {
+     
+  
+      position: absolute;
+      top: 10px;
+      left: 35px;
+      font-size: 25px;
+      text-align: center;
+      text-justify: auto;
+      overflow: hidden;
+      margin:20%;
+        
+    }
+    
+    #texto2 {
+      position: absolute;
+        top: 45px;
+        font-size: 12px;
+        text-align: center;
+        text-justify: auto;
+        overflow: hidden;
+        margin:20%;
+    
+    }
+    
+    
+    ::-webkit-scrollbar {
+      display: none;
+     
+      }
+    
+    
+    #posición-calas {
+      background-color: white;
+      justify-content: center;
+      align-items: center;
+    
+    
+      }
+    
+    
+    #nombreraro {
+      position: absolute;
+      top: 350px;
+    left: 60px;
+    
+      text-align: left;
+    letter-spacing: 0px;
+    opacity: 0.4;
+    border-bottom: 1px black solid;
+     
+      z-index: 1;
+      }
+      
+    
+    
+     
+    #fname {
+      position: absolute;
+      top: 158px;
+      left: 70px;
+    
+      text-align: left;
+    letter-spacing: 0px;
+    opacity: 0.4;
+    border-bottom: 1px black solid;
+     
+      z-index: 1;
+      }
+    
+      #wename {
+        position: absolute;
+        top: 390px;
+      left: 60px;
+      
+        text-align: left;
+      letter-spacing: 0px;
+      opacity: 0.4;
+      border-bottom: 1px black solid;
+       
+        z-index: 1;
+    
+        }
+      
+      #lname {
+        position: absolute;
+        top: 200px;
+        left: 70px;
+      
+        text-align: left;
+      letter-spacing: 0px;
+      opacity: 0.4;
+      border-bottom: 1px black solid;
+       
+        z-index: 1;
+    
+        }
+    #kname {
+      position: absolute;
+      top: 310px;
+    left: 60px;
+    
+      text-align: left;
+    letter-spacing: 0px;
+    opacity: 0.4;
+    border-bottom: 1px black solid;
+     
+      z-index: 1;
+    
+    }
+    
+    #comprareiralcarro {
+    
+      color: var(--unnamed-color-ffffff);
+      text-align: center;
+      font: normal normal 600 14px/26px Montserrat;
+      letter-spacing: 0.06px;
+      color: #FFFFFF;
+      opacity: 1;
+      position: absolute;
+      top: 550px;
+      left: 45px;
+      width: 205px;
+      height: 52px; 
+      /* UI Properties */
+      background: #52A6F0 0% 0% no-repeat padding-box;
+      border-radius: 80px;
+      opacity: 1;
+      z-index: 20;
+    
+    }
+    
+    
+    #clic23 {
+    
+      /* UI Properties */
+      color: var(--unnamed-color-ffffff);
+      text-align: center;
+      font: normal normal 600 14px/26px Montserrat;
+      letter-spacing: 0.06px;
+      color: #FFFFFF;
+      opacity: 1;
+      position: absolute;
+      top: 450px;
+      left: 45px;
+      width: 205px;
+      height: 52px; 
+      /* UI Properties */
+      background: #52A6F0 0% 0% no-repeat padding-box;
+      border-radius: 80px;
+      opacity: 1;
+      z-index: 1;
+      
+        }
+      
+    
+    
+    
+      #clic {
+       
+        
+         max-width: 205px;
+         max-height: 52px; 
+    
+    /* UI Properties */
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal 600 14px/26px Montserrat;
+    letter-spacing: 0.06px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    top: 260px;
+    left: 57px;
+    width: 205px;
+    height: 52px; 
+    /* UI Properties */
+    background: #52A6F0 0% 0% no-repeat padding-box;
+    border-radius: 80px;
+    opacity: 1;
+    z-index: 1;
+    
+      }
+    
+      #iniciafacebook {
+        position: absolute;
+        top: 14px;
+        left: 50px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal medium 3px/12px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+      }
+    
+      #iconogoogle {
+        position: absolute;
+        top: 16px;
+        left: 35px;
+    
+      }
+    
+      #facebook {
+        position: absolute;
+        top: 590px;
+        
+        left: 29px;
+    width: 260px;
+    height: 52px;
+    /* UI Properties */
+    border: 1px solid #000000;
+    border-radius: 50px;
+    opacity: 1;
+    z-index: 35;
+      }
+    
+      #iconofacebook {
+        position: absolute;
+        top: 18px;
+        left: 25px;
+      }
+  
+  
+     
+    
+    
+      #iniciagoogle{
+    
+        position: absolute;
+        top: 13px;
+        left: 59px;
+        /* UI Properties */
+        text-align: center;
+        font: normal normal medium 4px/12px Montserrat;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1; 
+      }
+      #google {
+        position: absolute;
+        top: 520px;
+        
+        left: 29px;
+        width: 260px;
+        height: 52px;
+    /* UI Properties */
+    border: 1px solid #000000;
+    border-radius: 50px;
+    opacity: 1;
+    z-index: 35;
+    
+      }
+    
+      #cantidad {
+        position: absolute;
+        top: 300px;
+        left: 120px;
+        z-index: 4;
+        
+        font-style: bold;
+      }
+    
+      #regresaatrasahora {
+        position: absolute;
+        top: 480px;
+        left: 20px;
+        z-index: 4;
+        color: #3599F3;
+        font-style: bold;
+    
+      }
+    
+      #pricetag {
+    
+        position: absolute;
+        top: 310px;
+        left: 30px;
+        z-index: 4;
+        font-size: 35px;
+        font-style: bold;
+    
+      }
+    
+    
+    #unids {
+    
+      position: absolute;
+        top: 350px;
+        left: 30px;
+        z-index: 4;
+    
+    
+    }
+    
+    
+      #recuadroatras {
+        position: absolute;
+        top: 190px;
+        left: 0px;
+        z-index: 3;
+        max-width: 298px;
+      }
+    
+      #descripcionproductoacarro {
+        position: absolute;
+        top: 270px;
+        left: 30px;
+        z-index: 4;
+        font-size: black;
+        
+    
+      }
+    
+      #logo1 {
+     
+        position: absolute;
+      top: 25px;
+      left: 2px;
+        height: 10px;
+        /*IMPORTANTE*/
+        
+        z-index: 20;
+    
+      }
+    
+      
+    
+      #abajoblanco {
+        /* Layout Properties */
+        position: absolute;
+        top: 300px;
+        left: 0px;
+    width: 390px;
+    height: 844px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 0;
+      }
+    } 
+    
+    
