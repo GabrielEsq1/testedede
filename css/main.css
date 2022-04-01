@@ -442,7 +442,7 @@
 z-index: 2;
     position: relative;
     top: 20px;
-    left: 275px;
+    top: -150px;
     font-size: 25px;
 
     margin:20%;
@@ -451,7 +451,7 @@ z-index: 2;
   
   #texto2 {
     position: relative;
-      top: -180px;
+      top: -150px;
       left: 2920;
       font-size: 12px;
     
@@ -496,7 +496,7 @@ z-index: 2;
   #fname {
     position: absolute;
     top: 120px;
-    left: 285px;
+    top: -150px;
   
     text-align: left;
   letter-spacing: 0px;
@@ -523,7 +523,7 @@ z-index: 2;
     #lname {
       position: absolute;
       top: 120px;
-      left: 585px;
+      top: -150px;
     
       text-align: left;
     letter-spacing: 0px;
@@ -609,7 +609,7 @@ z-index: 2;
   opacity: 1;
   position: absolute;
   top: 180px;
-  left: 422px;
+  top: -150px;
   width: 205px;
   height: 52px; 
   /* UI Properties */
@@ -643,7 +643,7 @@ z-index: 2;
       position: absolute;
   top: 1211px;
   
-  left: 405px;
+  top: -150px;
   width: 260px;
   height: 52px;
   /* UI Properties */
@@ -679,7 +679,7 @@ z-index: 2;
       position: absolute;
       top: 1111px;
       
-      left: 405px;
+      top: -150px;
       width: 260px;
       height: 52px;
   /* UI Properties */
