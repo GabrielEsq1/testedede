@@ -1,5 +1,5 @@
 
-@media (width: 1080px) {
+@media (max-width: 1080px) {
 
   #monedacompra {
     position: absolute;
