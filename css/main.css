@@ -313,7 +313,7 @@
      
       position: relative;
     top: 25px;
-    left: 215px;
+    left: 1px;
       height: 200px;
       /*IMPORTANTE*/
       
@@ -336,7 +336,7 @@
     #logo2 {
       position: absolute;
     top: 30px;
-    left: 00px;
+    left: 1px;
     opacity: 0.3;
       scale: 100%;
       max-width: 100%;
@@ -353,7 +353,7 @@
      justify-content: center;
      align-items: center;
      background-image: url("/images/");
-    
+     left: 1px;
      z-index: 0;
      position: relative;
         display: block;
@@ -429,7 +429,7 @@
       max-width: 450px;
       position: relative;
       top: 35px;
-      left: 132px;
+      left: 1px;
     
     }
     
@@ -446,7 +446,7 @@
   
       position: absolute;
       top: -40px;
-      left: 165px;
+      left: 1px;
       font-size: 25px;
       text-align: center;
       text-justify: auto;
@@ -458,6 +458,7 @@
     #texto2 {
       position: absolute;
         top: -6px;
+        left: 1px;
         font-size: 12px;
         text-align: center;
         text-justify: center;
@@ -501,7 +502,7 @@
     #fname {
       position: absolute;
       top: 178px;
-      left: 260px;
+      left: 1px;
     
       text-align: left;
     letter-spacing: 0px;
@@ -528,7 +529,7 @@
       #lname {
         position: absolute;
         top: 220px;
-        left: 260px;
+        left: 1px;
       
         text-align: left;
       letter-spacing: 0px;
@@ -614,7 +615,7 @@
     opacity: 1;
     position: absolute;
     top: 260px;
-    left: 245px;
+    left: 1px;
     width: 205px;
     height: 52px; 
     /* UI Properties */
@@ -648,7 +649,7 @@
         position: absolute;
     top: 640px;
     
-    left: 210px;
+    left: 1px;
     width: 260px;
     height: 52px;
     /* UI Properties */
@@ -684,7 +685,7 @@
         position: absolute;
         top: 570px;
         
-        left: 210px;
+        left: 1px;
         width: 260px;
         height: 52px;
     /* UI Properties */
